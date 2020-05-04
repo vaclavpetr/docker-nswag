@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:2.1
 
-RUN curl -O -L https://github.com/RicoSuter/NSwag/releases/download/NSwag-Build-1067/NSwag.zip \
+RUN curl -O -L https://github.com/RicoSuter/NSwag/releases/download/NSwag-Build-1099/NSwag.zip \
     && apt-get update \
     && apt-get install -y --no-install-recommends unzip \
     && unzip -q ./NSwag.zip -d NSwag \
